@@ -1,0 +1,224 @@
+    1  dir
+    2  ls
+    3  cd /home/cta200
+    4  pwd
+    5  ls
+    6  cd repos
+    7  ls
+    8  cd ..
+    9  ls
+   10  find -name '*auss*'
+   11  find -name 'gauss2d'
+   12  ls
+   13  cd Research
+   14  ls
+   15  cd ..
+   16  cd repos
+   17  ls
+   18  cd ..
+   19  ls
+   20  pwd
+   21  mkdir /mnt/scratch-lustre/$USER/gauss2d
+   22  cd /mnt/scratch-lustre
+   23  ls
+   24  cd student23
+   25  pwd
+   26  mkdir gauss2d
+   27  ll
+   28  ls -lh
+   29  pwd
+   30  cd
+   31  ls
+   32  [wd
+   33  pwd
+   34  mkdir wwwww
+   35  ls
+   36  cd -
+   37  ls
+   38  pwd
+   39  mkdir wwww
+   40  cd /fs/lustre/scratch/student23/
+   41  ls
+   42  mkdir www
+   43  ls -la
+   44  cd ..
+   45  pwd
+   46  cd /home/cta200
+   47  pwd
+   48  ls
+   49  find . -name '*auss*'
+   50  cd /mnt/scratch-lustre
+   51  ls
+   52  cd student23
+   53  mkdir gauss2d
+   54  ls
+   55  cd /home/cta200
+   56  ls
+   57  cd ..
+   58  ls
+   59  pwd
+   60  mkdir gauss2d
+   61  cd /home/cta200
+   62  ls
+   63  mkdir gauss2d
+   64  cd /home/student23
+   65  mkdir gauss2d
+   66  ls
+   67  cp -av /home/cta200/Research/gauss2d /home/$USER/gauss2d
+   68  pwd
+   69  cd gauss2d
+   70  ls
+   71  cd gauss2d
+   72  ls
+   73  less gauss2d
+   74  less gauss2d.cc
+   75  cat Makefile
+   76  ./gauss2d.cc
+   77  g++ gauss2d.cc -o gauss2d
+   78  ./gauss2d > data.txt
+   79  ls
+   80  less data.txt
+   81  ./plot.py data.txt
+   82  module load python/3.10.2
+   83  head -1 plot.py
+   84  ./plot.py data.txt
+   85  vim plot.py 
+   86  module load gcc/5.4.0
+   87  ./plot.py data.txt
+   88  module load python
+   89  module list
+   90  ./plot.py < data.txt
+   91  ./gauss2d | ./plot.py 
+   92  module list
+   93  module unload gcc/5.4.0 
+   94  module list
+   95  ./gauss2d | ./plot.py 
+   96  /cita/local/bin/passwd
+   97  ssh lobster
+   98  cd /home/student23
+   99  cd gauss2d/gauss2d
+  100  ls
+  101  module load python
+  102  ./plot.py < data.txt 
+  103  less data.txt
+  104  exit
+  105  cd /home/student23/gauss2d/gauss2d
+  106  module load python
+  107  ./plot.py < data.txt
+  108  pip install matplotlib
+  109  ./plot.py < data.txt
+  110  pip install pyqt5
+  111  ./plot.py < data.txt
+  112  exit
+  113  ssh -X lobster
+  114  ssh -X cosmo3
+  115  exit
+  116  cd /home/student23/gauss2d/gauss2d
+  117  module load python
+  118  ./plot.py < data.txt
+  119  exit
+  120  ssh -X cosmo3
+  121  exit
+  122  cd /home/student23/gauss2d/gauss2d
+  123  module load python
+  124  ./plot.py < data.txt
+  125  exit
+  126  ssh -Y cosmo3
+  127  exit
+  128  cd /home/student23/gauss2d/gauss2d
+  129  module load python
+  130  ./plot.py < data.txt
+  131  exit
+  132  ssh -X -Y cosmo3
+  133  exit
+  134  ls
+  135  pwd
+  136  cd gauss2d/gauss2d
+  137  pwd
+  138  ls
+  139  module load python
+  140  ./plot.py data.txt
+  141  pwd
+  142  ls
+  143  git clone https://github.com/beniz/eigenmvn
+  144  ls
+  145  cd eigenmvn
+  146  ls
+  147  g++ -I/usr/include -I/usr/include/eigen3 -g -std=c++11 test_eigenmvn.cc
+  148  g++ -I/usr/include -I/usr/include/eigen3 -g -std=c++11 test_eigenmvn.cc -o te
+  149  ls
+  150  pwd
+  151  ls
+  152  pwd
+  153  mkdir CTA_2023
+  154  cd CTA_2023
+  155  mkdir assignment_1
+  156  ls
+  157  cd assignment_1
+  158  nul > README.md
+  159  type nul > README.md
+  160  cat > README.md
+  161  vi README.md 
+  162  less README.md
+  163  pwd
+  164  cd /cita
+  165  ls
+  166  cd home
+  167  ls
+  168  cd student23
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd murray
+  173  find '*Hello_world*'
+  174  find 'Hello_world.c'
+  175  ls
+  176  pwd
+  177  cd ..
+  178  cd student23
+  179  ls
+  180  cd CTA_2023
+  181  cd assignment_1
+  182  pwd
+  183  cd /cita/home/murray
+  184  cp Hello_world.c /cita/home/student23/CTA_2023/assignment_1
+  185  cp Hello_world.py /cita/home/student23/CTA_2023/assignment_1
+  186  cd /cita/home/student23/CTA_2023/assignment_1
+  187  ls
+  188  mv Hello_world.c Hello_world_Rao.c
+  189  mv Hello_world.py Hello_world_Rao.py
+  190  ls
+  191  module load gcc/5.4.0
+  192  gcc Hello_world_Rao.c
+  193  ls
+  194  mv a.out Hello_world.x
+  195  ls
+  196  less Hello_world.x
+  197  module load python/3.10.2
+  198  python Hello_world_Rao.py
+  199  ./Hello_world.x 
+  200  vi Hello_world_Rao.c
+  201  less Hello_world_Rao.c
+  202  vi Hello_world_Rao.py
+  203  less Hello_world_Rao.py
+  204  ./Hello_world_Rao.c > output_c.txt
+  205  ls
+  206  less output_c.txt
+  207  ./Hello_world.x > output_c.txt
+  208  less output_c.txt
+  209  ./Hello_world_Rao.py > output_python.txt
+  210  ls
+  211  python Hello_world_Rao.py > output_python.txt
+  212  gcc Hello_world_Rao.c > output_c.txt
+  213  less output_c.txt
+  214  less output_python.txt
+  215  ls
+  216  rm a.out
+  217  ls
+  218  gcc Hello_world_Rao.c
+  219  ls
+  220  mv a.out Hello_world_new.x
+  221  ./Hello_world_new.x > output_c.txt
+  222  less output_c.txt
+  223  ls
+  224  history > history.txt
